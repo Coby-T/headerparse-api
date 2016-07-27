@@ -1,0 +1,22 @@
+{
+  "name": "headerparse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coby-T/headerparse-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Coby-T/headerparse-api/issues"
+  },
+  "homepage": "https://github.com/Coby-T/headerparse-api#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
