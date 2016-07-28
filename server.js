@@ -1,7 +1,20 @@
 var express = require("express")
+var path = require("path")
 var app = express()
 
 const port = 8080
+
+app.get('/', function(req, res) {
+    var guidePath = path.join(__dirname, "index.html")
+    res.sendFile(guidePath, function (err) {
+        if (err) {
+            throw err
+        }
+        else {
+            console.log("Guide sent")
+        }
+    })
+})
 
 app.get('/whoami/', function(req, res) {
     const osregex = /(\([A-Za-z0-9;,./\s]*\))/g
